@@ -1,0 +1,20 @@
+{
+  "name": "@lyndon/rollup-plugin-emit-file",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "learn",
+    "rollup",
+    "plugin"
+  ],
+  "files": [
+    "/dist",
+    "LICENSE"
+  ],
+  "author": "wuxianzhi",
+  "license": "MIT"
+}
