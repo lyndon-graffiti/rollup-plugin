@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin",
+  "version": "1.0.0",
+  "description": "the toy of rollup plugin, which is for learning.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyndon-graffiti/rollup-plugin.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin"
+  ],
+  "author": "wuxianzhi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lyndon-graffiti/rollup-plugin/issues"
+  },
+  "homepage": "https://github.com/lyndon-graffiti/rollup-plugin#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.17.2"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^5.1.0"
+  }
+}

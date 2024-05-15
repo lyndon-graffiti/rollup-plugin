@@ -1,0 +1,279 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@rollup/pluginutils':
+        specifier: ^5.1.0
+        version: 5.1.0(rollup@4.17.2)
+    devDependencies:
+      '@rollup/plugin-node-resolve':
+        specifier: ^15.2.3
+        version: 15.2.3(rollup@4.17.2)
+      rollup:
+        specifier: ^4.17.2
+        version: 4.17.2
+
+  packages/emit-file: {}
+
+packages:
+
+  /@rollup/plugin-node-resolve@15.2.3(rollup@4.17.2):
+    resolution: {integrity: sha1-5eCwWb2FyldIlJLylc6IwtSw2vk=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/plugin-node-resolve/download/@rollup/plugin-node-resolve-15.2.3.tgz}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^2.78.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@rollup/pluginutils': 5.1.0(rollup@4.17.2)
+      '@types/resolve': 1.20.2
+      deepmerge: 4.3.1
+      is-builtin-module: 3.2.1
+      is-module: 1.0.0
+      resolve: 1.22.8
+      rollup: 4.17.2
+    dev: true
+
+  /@rollup/pluginutils@5.1.0(rollup@4.17.2):
+    resolution: {integrity: sha1-flPt3Ix/SDpK0LlK+x9/X9PHceA=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/pluginutils/download/@rollup/pluginutils-5.1.0.tgz}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
+    dependencies:
+      '@types/estree': 1.0.5
+      estree-walker: 2.0.2
+      picomatch: 2.3.1
+      rollup: 4.17.2
+
+  /@rollup/rollup-android-arm-eabi@4.17.2:
+    resolution: {integrity: sha1-GjIRKCJmDuEExd06fFleJhANTC0=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-android-arm-eabi/download/@rollup/rollup-android-arm-eabi-4.17.2.tgz}
+    cpu: [arm]
+    os: [android]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-android-arm64@4.17.2:
+    resolution: {integrity: sha1-Wu7yBtZf9NtCPzqT9xr5GyhmLFs=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-android-arm64/download/@rollup/rollup-android-arm64-4.17.2.tgz}
+    cpu: [arm64]
+    os: [android]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-darwin-arm64@4.17.2:
+    resolution: {integrity: sha1-a2aq8APHBFTCks1fAjbr3G/73xo=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-darwin-arm64/download/@rollup/rollup-darwin-arm64-4.17.2.tgz}
+    cpu: [arm64]
+    os: [darwin]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-darwin-x64@4.17.2:
+    resolution: {integrity: sha1-9k/FHtErGfiDExzLzqWfxoy9bAs=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-darwin-x64/download/@rollup/rollup-darwin-x64-4.17.2.tgz}
+    cpu: [x64]
+    os: [darwin]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-arm-gnueabihf@4.17.2:
+    resolution: {integrity: sha1-GnZBERvmfBARH3Ei0eN10SJsvxQ=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-arm-gnueabihf/download/@rollup/rollup-linux-arm-gnueabihf-4.17.2.tgz}
+    cpu: [arm]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-arm-musleabihf@4.17.2:
+    resolution: {integrity: sha1-yT/WMpI+D+4lqs0q5BQojQt0Vbs=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-arm-musleabihf/download/@rollup/rollup-linux-arm-musleabihf-4.17.2.tgz}
+    cpu: [arm]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-arm64-gnu@4.17.2:
+    resolution: {integrity: sha1-+lMUJd0h0FimMJR1J7RhLZ0LSko=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-arm64-gnu/download/@rollup/rollup-linux-arm64-gnu-4.17.2.tgz}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-arm64-musl@4.17.2:
+    resolution: {integrity: sha1-iswW8JXO6lhUyvewfnP30YAqxa8=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-arm64-musl/download/@rollup/rollup-linux-arm64-musl-4.17.2.tgz}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-powerpc64le-gnu@4.17.2:
+    resolution: {integrity: sha1-lOaahJm1zzaJEbg6RLsjB4KutXE=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-powerpc64le-gnu/download/@rollup/rollup-linux-powerpc64le-gnu-4.17.2.tgz}
+    cpu: [ppc64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-riscv64-gnu@4.17.2:
+    resolution: {integrity: sha1-fvHHgcflnoWmziYcyV1/HgtW2w8=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-riscv64-gnu/download/@rollup/rollup-linux-riscv64-gnu-4.17.2.tgz}
+    cpu: [riscv64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-s390x-gnu@4.17.2:
+    resolution: {integrity: sha1-8Vd1hBwyMvypt4zSWnoFEsaUs1Q=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-s390x-gnu/download/@rollup/rollup-linux-s390x-gnu-4.17.2.tgz}
+    cpu: [s390x]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-x64-gnu@4.17.2:
+    resolution: {integrity: sha1-tSHScXmNA3rXDJ+F3ZfSX4pS6BE=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-x64-gnu/download/@rollup/rollup-linux-x64-gnu-4.17.2.tgz}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-linux-x64-musl@4.17.2:
+    resolution: {integrity: sha1-klQBnMS6rDWACZExXRM8yf0b84U=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-linux-x64-musl/download/@rollup/rollup-linux-x64-musl-4.17.2.tgz}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-win32-arm64-msvc@4.17.2:
+    resolution: {integrity: sha1-J/Zaifb1LulCbsEeNXEDjkZxeQ8=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-win32-arm64-msvc/download/@rollup/rollup-win32-arm64-msvc-4.17.2.tgz}
+    cpu: [arm64]
+    os: [win32]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-win32-ia32-msvc@4.17.2:
+    resolution: {integrity: sha1-ovv4JG7QuwFPB4yjSuazd6kMtBE=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-win32-ia32-msvc/download/@rollup/rollup-win32-ia32-msvc-4.17.2.tgz}
+    cpu: [ia32]
+    os: [win32]
+    requiresBuild: true
+    optional: true
+
+  /@rollup/rollup-win32-x64-msvc@4.17.2:
+    resolution: {integrity: sha1-Wi0IuB6AZLNCQtXMmXPvjdHmBQM=, tarball: http://registry.npm.release.ctripcorp.com/@rollup/rollup-win32-x64-msvc/download/@rollup/rollup-win32-x64-msvc-4.17.2.tgz}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    optional: true
+
+  /@types/estree@1.0.5:
+    resolution: {integrity: sha1-ps4+VW4A/ZiV3Yct0XKtDUvWh/Q=, tarball: http://registry.npm.release.ctripcorp.com/@types/estree/download/@types/estree-1.0.5.tgz}
+
+  /@types/resolve@1.20.2:
+    resolution: {integrity: sha1-l9JuAM1KBCO0r2IKvs8+b0QreXU=, tarball: http://registry.npm.release.ctripcorp.com/@types/resolve/download/@types/resolve-1.20.2.tgz}
+    dev: true
+
+  /builtin-modules@3.3.0:
+    resolution: {integrity: sha1-yuYoEriYAellYzbkYiPgMDhr57Y=, tarball: http://registry.npm.release.ctripcorp.com/builtin-modules/download/builtin-modules-3.3.0.tgz}
+    engines: {node: '>=6'}
+    dev: true
+
+  /deepmerge@4.3.1:
+    resolution: {integrity: sha1-RLXyFHzTsA1LVhN2hZZvJv0l3Uo=, tarball: http://registry.npm.release.ctripcorp.com/deepmerge/download/deepmerge-4.3.1.tgz}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
+  /estree-walker@2.0.2:
+    resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: http://registry.npm.release.ctripcorp.com/estree-walker/download/estree-walker-2.0.2.tgz}
+
+  /fsevents@2.3.3:
+    resolution: {integrity: sha1-ysZAd4XQNnWipeGlMFxpezR9kNY=, tarball: http://registry.npm.release.ctripcorp.com/fsevents/download/fsevents-2.3.3.tgz}
+    engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
+    os: [darwin]
+    requiresBuild: true
+    optional: true
+
+  /function-bind@1.1.2:
+    resolution: {integrity: sha1-LALYZNl/PqbIgwxGTL0Rq26rehw=, tarball: http://registry.npm.release.ctripcorp.com/function-bind/download/function-bind-1.1.2.tgz}
+    dev: true
+
+  /hasown@2.0.2:
+    resolution: {integrity: sha1-AD6vkb563DcuhOxZ3DclLO24AAM=, tarball: http://registry.npm.release.ctripcorp.com/hasown/download/hasown-2.0.2.tgz}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      function-bind: 1.1.2
+    dev: true
+
+  /is-builtin-module@3.2.1:
+    resolution: {integrity: sha1-8DJxcX2GVM/K8HqwRj+qNXFYEWk=, tarball: http://registry.npm.release.ctripcorp.com/is-builtin-module/download/is-builtin-module-3.2.1.tgz}
+    engines: {node: '>=6'}
+    dependencies:
+      builtin-modules: 3.3.0
+    dev: true
+
+  /is-core-module@2.13.1:
+    resolution: {integrity: sha1-rQ11Msb+qdoevcgnQtdFJcYnM4Q=, tarball: http://registry.npm.release.ctripcorp.com/is-core-module/download/is-core-module-2.13.1.tgz}
+    dependencies:
+      hasown: 2.0.2
+    dev: true
+
+  /is-module@1.0.0:
+    resolution: {integrity: sha1-Mlj7afeMFNW4FdZkM2tM/7ZEFZE=, tarball: http://registry.npm.release.ctripcorp.com/is-module/download/is-module-1.0.0.tgz}
+    dev: true
+
+  /path-parse@1.0.7:
+    resolution: {integrity: sha1-+8EUtgykKzDZ2vWFjkvWi77bZzU=, tarball: http://registry.npm.release.ctripcorp.com/path-parse/download/path-parse-1.0.7.tgz}
+    dev: true
+
+  /picomatch@2.3.1:
+    resolution: {integrity: sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI=, tarball: http://registry.npm.release.ctripcorp.com/picomatch/download/picomatch-2.3.1.tgz}
+    engines: {node: '>=8.6'}
+
+  /resolve@1.22.8:
+    resolution: {integrity: sha1-tsh6nyqgbfq1Lj1wrIzeMh+lpI0=, tarball: http://registry.npm.release.ctripcorp.com/resolve/download/resolve-1.22.8.tgz}
+    hasBin: true
+    dependencies:
+      is-core-module: 2.13.1
+      path-parse: 1.0.7
+      supports-preserve-symlinks-flag: 1.0.0
+    dev: true
+
+  /rollup@4.17.2:
+    resolution: {integrity: sha1-JtF4XQFEEiJ3/bIKs6JHKa5oMB8=, tarball: http://registry.npm.release.ctripcorp.com/rollup/download/rollup-4.17.2.tgz}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+    dependencies:
+      '@types/estree': 1.0.5
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.17.2
+      '@rollup/rollup-android-arm64': 4.17.2
+      '@rollup/rollup-darwin-arm64': 4.17.2
+      '@rollup/rollup-darwin-x64': 4.17.2
+      '@rollup/rollup-linux-arm-gnueabihf': 4.17.2
+      '@rollup/rollup-linux-arm-musleabihf': 4.17.2
+      '@rollup/rollup-linux-arm64-gnu': 4.17.2
+      '@rollup/rollup-linux-arm64-musl': 4.17.2
+      '@rollup/rollup-linux-powerpc64le-gnu': 4.17.2
+      '@rollup/rollup-linux-riscv64-gnu': 4.17.2
+      '@rollup/rollup-linux-s390x-gnu': 4.17.2
+      '@rollup/rollup-linux-x64-gnu': 4.17.2
+      '@rollup/rollup-linux-x64-musl': 4.17.2
+      '@rollup/rollup-win32-arm64-msvc': 4.17.2
+      '@rollup/rollup-win32-ia32-msvc': 4.17.2
+      '@rollup/rollup-win32-x64-msvc': 4.17.2
+      fsevents: 2.3.3
+
+  /supports-preserve-symlinks-flag@1.0.0:
+    resolution: {integrity: sha1-btpL00SjyUrqN21MwxvHcxEDngk=, tarball: http://registry.npm.release.ctripcorp.com/supports-preserve-symlinks-flag/download/supports-preserve-symlinks-flag-1.0.0.tgz}
+    engines: {node: '>= 0.4'}
+    dev: true
